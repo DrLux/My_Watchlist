@@ -1,0 +1,130 @@
+h2 {
+  padding: 20px;
+  color: #ecf0f1;
+}
+
+fieldset {
+  border: none;
+}
+
+.help_container{
+  text-align: center;
+	margin-right: 15px;
+  margin-left: 15px;
+	position: relative;
+  height: 600px;
+}
+
+.user_form {
+	right: 0;
+	width: 50%;
+	height: auto;
+	display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.login {
+	display: block;
+	top: 0;
+	left: 0;
+  margin-left: 25%;
+	height: auto;
+    position: relative;
+}
+
+.register{
+  margin-left: 25%;
+	margin-top: 20px;
+	left: 0;
+	display: block;
+	height: auto;
+    position: relative;
+}
+
+.randompad {
+  padding: 10px;
+}
+.formholder {
+  background: #ddd;
+  width: 350px;
+  border-radius: 5px;
+  padding-top: 5px;
+  color: #333;
+}
+.formholder input[type="email"], .formholder input[type="password"], .formholder input[type="text"] {
+  padding: 7px 5px;
+  margin: 5px 0;
+  width: 96%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus, input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.button {
+  background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top,#0f4563 0%,#0b334a 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top,#0f4563 0%,#0b334a 100%); /* For Opera 11.1 to 12.0 */
+  background:-moz-linear-gradient(top,#0f4563 0%,#0b334a 100%);
+  background: linear-gradient(top,#0f4563 0%,#0b334a 100%); /* Standard syntax */
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.formholder input[type="submit"]:hover {
+	margin-top: 3px;
+  background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top,#0f5663 0%,#0e384a 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top,#0f5663 0%,#0e384a 100%); /* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(top,#0f5663 0%,#0e384a 100%);
+    background: linear-gradient(top,#0f5663 0%,#0e384a 100%); /* Standard syntax */
+}
+
+
+
+.imgcontainer {
+	display: inline;
+    text-align: left;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.show_demo{
+	left: 10%;
+	max-width: 50%;
+  width: 100%;
+	background-image: url("../img/demo.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  height: 550px;
+}
+
+.show_demo:hover {  
+
+   z-index: 100;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);    
+}

@@ -1,0 +1,72 @@
+.panel_episode{
+    display: none;
+
+    position: absolute;
+    top: 240px;
+    color:white; 
+    background-color: black;
+    width: 70%;
+    height: 700px;
+    left: 15%;
+    box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.episode{
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.locandina_episodio{
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    min-width: 40%;
+    top: 170px;
+    left: 20px;
+    background-image: url("../img/episode.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.dati_episodio{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 50px;
+    height: auto;
+    width: 50%;
+    text-align: left;
+  	top: 50px;
+}
+
+.dati_episodio > h2 {
+    font-size: 30px;
+	text-align: center;
+    font-style: bold;
+}
+
+.dati_episodio > dt {
+	margin-top: 10pt;
+}
+
+#trama_episodio {
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.panel_episode > .button{
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+    width: 500px;
+    max-width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000066;
+    text-shadow: 0px 1px #111;
+    font-weight: bold;
+    background: #ddd;
+    box-shadow: 0px 0px 8px #1abc9c;
+}

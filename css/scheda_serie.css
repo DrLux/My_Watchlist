@@ -1,0 +1,168 @@
+.PanelDetail{
+    position: relative;
+    display: none;
+    color:white; 
+    height: 850px;
+    width: 90%;
+    top: 0px;
+    border-radius: 40px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    color:white;
+
+    background: blue; 
+    background: -webkit-linear-gradient(top,#0f4363 0%,#0b334a 100%); 
+    background: -o-linear-gradient(top,#0f4363 0%,#0b334a 100%); 
+    background:-moz-linear-gradient(top,#0f4363 0%,#0b334a 100%);
+    background: linear-gradient(top,#0f4363 0%,#0b334a 100%);     
+    box-shadow: 0px 0px 8px #aaaaaa;
+
+    border-radius: 10px 10px 10px 10px;  
+}
+
+#titolo_serie {
+  position: relative;
+  background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(top,#0f4563 0%,#0b334a 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top,#0f4563 0%,#0b334a 100%); /* For Opera 11.1 to 12.0 */
+  background:-moz-linear-gradient(top,#0f4563 0%,#0b334a 100%);
+  background: linear-gradient(top,#0f4563 0%,#0b334a 100%); /* Standard syntax */
+  box-shadow: 0px 0px 5px #aaaaaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  border-radius: 15px 15px 0px 0px;
+  top:0;
+}
+
+/*ovverride delle proprietà css dei button*/
+.PanelDetail > .button{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #00099e;
+    text-shadow: 0px 1px #111;
+    font-weight: bold;
+    background: #ddd;
+    box-shadow: 0px 0px 8px #1abc9c;
+}
+
+.area_button{
+  font-size: 20px;
+  display: none;
+  text-align: center;
+  text-shadow: 0px 1px #111;
+  font-weight: bold;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  height: auto;
+  width: 350px;
+}
+
+#add_ita{
+  text-shadow: 0px 1px #111;
+  font-weight: bold;
+  color: #00099e;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 4%;
+  padding-top: 60px
+  height: 250px;
+  display: none;
+  background: #eee;  
+}
+
+.check_ita{
+  display: none;
+  position: absolute; 
+  top:40px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-image: url("../img/check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.check_eng{
+  display: none;
+  color: #00099e;
+  position: absolute; 
+  bottom:30px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-image: url("../img/check.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#add_eng{
+  text-shadow: 0px 1px #111;
+  font-weight: bold;
+  color: #000099;
+  cursor: pointer;
+  margin-bottom: 30px;
+  padding-top: 200px
+  height: 250px;
+  display: none;
+  background: #eee;  
+}
+
+.serie {
+    border: none;
+    border-radius: 30px 30px 0px 0px;
+    height: 700px;
+    position: relative;
+}
+
+
+.locandina_serie{
+	display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 30%;
+    left: 5%;
+    top: 25%;
+    background-image: url("../img/default_poster.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dati_serie{
+    padding-right: 20px;
+    top: 15%;
+    right: 0;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+}
+
+.dati_serie > h2 {
+	text-align: center;
+}
+
+.dati_serie > dt {
+	margin-top: 10pt;
+    display: inline-block;
+}
+
+.dati_serie > dl {
+    margin-left: 30px;
+}
+
+#trama_serie {
+	max-height: 150px;
+	overflow-y: scroll;
+}
