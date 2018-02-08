@@ -18,7 +18,5 @@ The logic scheme of local database is:
 
 # Demonstration
 I left a video demonstration below:
-[![Watch the video](https://drlux.github.io/my_watchlist.JPG)](https://youtu.be/kd1NAzdPOdU)
+[![Watch the video](https://drlux.github.io/watchlist.JPG)](https://youtu.be/kd1NAzdPOdU)
 
-I left a video demonstration below:
-[![Watch the video](https://drlux.github.io/my_watchlist.JPG)](https://youtu.be/kd1NAzdPOdU)
