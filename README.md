@@ -14,8 +14,8 @@ All the information are downloaded from [TheTVDB.com](https://www.thetvdb.com/),
 So my_watchlist send request during the search for new series but the most common information (such the credential, the informations to the episodes, the added tv-series) are cached in a local database.
 
 The logic scheme of local database is:
-![local_db](https://drlux.github.io/db_watchlist.JPG)
+![scheme_local_db](https://drlux.github.io/db_watchlist.JPG)
 
 # Demonstration
 I left a video demonstration below.
-[![Watch the video](https://drlux.github.io/my_watchlist.JPG)](https://youtu.be/kd1NAzdPOdU)
+[![Watch the video](https://drlux.github.io/my_watchlist.png)](https://youtu.be/kd1NAzdPOdU)
