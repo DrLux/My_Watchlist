@@ -15,13 +15,13 @@ So my_watchlist send request during the search for new series but the most commo
 
 The logic scheme of local database is:
 ```
-	Utente(__id_utente__, username, password, img_path)
+	Utente(**id_utente**, username, password, img_path)
 
-	Puntata(__punt_id_serie, stagione, num_puntata, punt_lingua__, data, trama, id_img_puntata)
+	Puntata(**punt_id_serie, stagione, num_puntata, punt_lingua**, data, trama, id_img_puntata)
 
-	Serie(__id_serie, serie_lingua__, banner_img, ultima_mod, status, nome_serie)
+	Serie(**id_serie, serie_lingua**, banner_img, ultima_mod, status, nome_serie)
 
-	Watchlist(__wl_id_utente, wl_id_serie, wl_lingua__, data_aggiunta) 
+	Watchlist(**wl_id_utente, wl_id_serie, wl_lingua**, data_aggiunta) 
 ```
 
 # Demonstration
