@@ -21,7 +21,6 @@ id_img_puntata)
 Serie(id_serie, serie_lingua, banner_img, ultima_mod, status, nome_serie)
 Watchlist(wl_id_utente, wl_id_serie, wl_lingua, data_aggiunta)
 ```
-![Colored versiont for foreign keys](https://drlux.github.io/db_watchlist.JPG)
 
 # Demonstration
 I left a video demonstration below:
