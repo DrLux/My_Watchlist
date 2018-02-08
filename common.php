@@ -54,7 +54,7 @@ function do_estern_call($opt,$url){
 
 //il token va richiesto con una chiamata diretta in curl.
 function get_new_token(){
-   $data = array("apikey" => "6FE31604329262D0", "username" => "luxor", "userkey" => "719635EBDF27C601"); 
+  //$data = MY Credentials  
   $data_string = json_encode($data); 
 
 
