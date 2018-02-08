@@ -24,4 +24,5 @@ Watchlist(wl_id_utente, wl_id_serie, wl_lingua, data_aggiunta)
 
 # Demonstration
 I left a video demonstration below:
-[![Watch the video](https://drlux.github.io/my_watchlist.png)](https://www.youtube.com/watch?v=kd1NAzdPOdU&feature=youtu.be)
+
+[![Watch the video ](https://drlux.github.io/my_watchlist.png)](https://www.youtube.com/watch?v=kd1NAzdPOdU&feature=youtu.be)
